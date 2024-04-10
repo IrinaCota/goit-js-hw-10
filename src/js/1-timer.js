@@ -1,7 +1,8 @@
 import flatpickr from 'flatpickr';
+import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-import 'flatpickr/dist/flatpickr.min.css';
+
 
 const startButton = document.querySelector('button');
 const inputData = document.querySelector('input#datetime-picker');
@@ -95,3 +96,5 @@ startButton.addEventListener('click', () => {
 });
 
 startButton.disabled = true;
+
+
